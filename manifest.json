@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "Scan any webpage for broken links. Bulk validation and export.",
   "permissions": [
-    "storage"
+    "storage",
+    "scripting",
+    "activeTab"
   ],
   "action": {
     "default_popup": "popup.html",
